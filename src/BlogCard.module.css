@@ -1,0 +1,15 @@
+.BlogCard {
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    background-color: aqua;
+}
+
+@media (min-width: 992px) {
+    .BlogCard {
+        width: 45%;
+        display: inline-block;
+    }
+}
